@@ -31,11 +31,14 @@ namespace WebApplication2.Controllers
         }
         public ActionResult Create(UserIndexModel userM)
         {
-            Mapper.Initialize(cfg => cfg.CreateMap<UserIndexModel, User>());
-            var user = Mapper.Map<UserIndexModel, User>(userM);
-            _bsl.AddUser(user);
-
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                Mapper.Initialize(cfg => cfg.CreateMap<UserIndexModel, User>());
+                var user = Mapper.Map<UserIndexModel, User>(userM);
+                _bsl.AddUser(user);
+                return RedirectToAction("Index");
+            }
+            return View("Create");
         }
     }
 }

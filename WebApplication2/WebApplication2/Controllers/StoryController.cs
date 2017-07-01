@@ -45,7 +45,11 @@ namespace WebApplication2.Controllers
         [HttpPost]
         public ActionResult Details(DetailsStoryViewModel story)
         {
-            return RedirectToAction("Index", new { userId = story.UserId , page = 1 });
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("Index", new { userId = story.UserId, page = 1 });
+            }
+            return View("Details");
         }
         [HttpGet]
         public ActionResult Edit(int id)
@@ -64,10 +68,14 @@ namespace WebApplication2.Controllers
         [HttpPost]
         public ActionResult Edit(EditStoryViewModel storyVM)
         {
-            Mapper.Initialize(cfg => cfg.CreateMap<EditStoryViewModel, Story>());
-            var story = Mapper.Map<EditStoryViewModel, Story>(storyVM);
-            _bsl.UpdateStory(story);
-            return RedirectToAction("Index", new { userId = story.UserId, page = 1 });
+            if (ModelState.IsValid)
+            {
+                Mapper.Initialize(cfg => cfg.CreateMap<EditStoryViewModel, Story>());
+                var story = Mapper.Map<EditStoryViewModel, Story>(storyVM);
+                _bsl.UpdateStory(story);
+                return RedirectToAction("Index", new { userId = story.UserId, page = 1 });
+            }
+            return View("Edit");
         }
         [HttpGet]
         public ActionResult Create(int userId)
@@ -80,10 +88,15 @@ namespace WebApplication2.Controllers
         [HttpPost]
         public ActionResult Create(CreateStoryViewModel storyVM)
         {
-            Mapper.Initialize(cfg => cfg.CreateMap<CreateStoryViewModel, Story>());
-            var story = Mapper.Map<CreateStoryViewModel, Story>(storyVM);
-            _bsl.AddStory(story);
-            return RedirectToAction("Index",new {userId= story.UserId, page = 1 });
+            if (ModelState.IsValid)
+            {
+                Mapper.Initialize(cfg => cfg.CreateMap<CreateStoryViewModel, Story>());
+                var story = Mapper.Map<CreateStoryViewModel, Story>(storyVM);
+                _bsl.AddStory(story);
+                return RedirectToAction("Index", new { userId = story.UserId, page = 1 });
+            }
+            return View("Create");
         }
+
     }
 }
