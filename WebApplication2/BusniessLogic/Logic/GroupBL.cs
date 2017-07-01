@@ -25,7 +25,7 @@ namespace BusniessLogic.Logic
         {
             int startIndex = pageIndex * count;
             int endIndex = pageIndex * count + count;
-            return _uOfw.Groups.Find(p => p.Id > startIndex && p.Id < endIndex);
+            return _uOfw.Groups.Find(p => p.Id > startIndex && p.Id <= endIndex);
         }
         public IEnumerable<Group> GetGroups()
         {

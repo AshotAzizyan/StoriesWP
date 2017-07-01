@@ -1,4 +1,4 @@
-﻿using BusinessLogic.Logic;
+﻿using AutoMapper;
 using BusniessLogic.ILogic;
 using DataModel.Models;
 using System;
@@ -7,6 +7,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using WebApplication2.Models;
+using WebApplication2.Models.ModelsGroupController;
 
 namespace WebApplication2.Controllers
 {
@@ -22,12 +23,15 @@ namespace WebApplication2.Controllers
 
         public ActionResult Index(int userId, int page=1)
         {
-            int pageSize = 3; 
-            IEnumerable<Group> gropsFinde = _bsl.FindeGroups(page-1, pageSize);
+            int pageSize = 3;
+            Mapper.Initialize(c=>c.CreateMap<Group, SupGroupIndexModel>());
+            var groupsFinde = _bsl.FindeGroups(page-1 , pageSize);
+
+            var gropsVM = Mapper.Map<IEnumerable<Group>, List<SupGroupIndexModel>>(groupsFinde);
             PageInfo pageInfo = new PageInfo { PageNumber = page, PageSize = pageSize, TotalItems = _bsl.GetGroupCount() };
-            var storyCounts = _bsl.GetGroupStoriesCount(gropsFinde).ToList();
-            var userCounts = _ugBsl.GetUserGroupCount(gropsFinde).ToList();
-            IndexGroupViewModel gvm = new IndexGroupViewModel { PageInfo = pageInfo, StoryCount= storyCounts, UserCount = userCounts,  Groups = gropsFinde };
+            var storyCounts = _bsl.GetGroupStoriesCount(groupsFinde).ToList();
+            var userCounts = _ugBsl.GetUserGroupCount(groupsFinde).ToList();
+            IndexGroupViewModel gvm = new IndexGroupViewModel { PageInfo = pageInfo, StoryCount= storyCounts, UserCount = userCounts,  Groups = gropsVM };
             ViewBag.UserId = userId;
             return View(gvm);
         }

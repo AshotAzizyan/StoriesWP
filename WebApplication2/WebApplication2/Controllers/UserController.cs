@@ -1,4 +1,4 @@
-﻿using BusinessLogic.Logic;
+﻿using AutoMapper;
 using BusniessLogic.ILogic;
 using DataModel.Models;
 using System;
@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebApplication2.Models.ModelsUserController;
 
 namespace WebApplication2.Controllers
 {
@@ -21,13 +22,17 @@ namespace WebApplication2.Controllers
         // GET: User
         public ActionResult Index()
         {
-            var users = _bsl.GetUsers();
+            Mapper.Initialize(c => c.CreateMap<User, UserIndexModel>());
+
+            var users =
+               Mapper.Map<IEnumerable<User>, List<UserIndexModel>>(_bsl.GetUsers());
             ViewBag.UserId=1;
             return View(users);
         }
-        public ActionResult Create(string name)
+        public ActionResult Create(UserIndexModel userM)
         {
-            var user = new User() {Name=name };
+            Mapper.Initialize(cfg => cfg.CreateMap<UserIndexModel, User>());
+            var user = Mapper.Map<UserIndexModel, User>(userM);
             _bsl.AddUser(user);
 
             return RedirectToAction("Index");

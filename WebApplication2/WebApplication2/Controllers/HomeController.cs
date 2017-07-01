@@ -1,5 +1,4 @@
-﻿using BusinessLogic;
-using BusinessLogic.Logic;
+﻿
 using DataModel.Models;
 using System;
 using System.Collections.Generic;
