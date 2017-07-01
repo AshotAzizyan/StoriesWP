@@ -12,5 +12,6 @@ namespace BusniessLogic.ILogic
         IEnumerable<UserGroup> GetAllUserGroup();
         UserGroup GetUserGroupById(int id);
         IEnumerable<int> GetUserGroupCount(IEnumerable<Group> groupIds);
+        void Dispose();
     }
 }

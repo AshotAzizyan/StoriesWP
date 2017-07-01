@@ -30,5 +30,10 @@ namespace BusniessLogic.Logic
         {
             return _uOfw.Users.GetAll();
         }
+
+        public void Dispose()
+        {
+            _uOfw.Dispose();
+        }
     }
 }

@@ -37,5 +37,10 @@ namespace BusniessLogic.Logic
             }
             return countsUser;
         }
+
+        public void Dispose()
+        {
+            _uOfw.Dispose();
+        }
     }
 }

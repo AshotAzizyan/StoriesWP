@@ -46,5 +46,10 @@ namespace BusniessLogic.Logic
         {
             return _uOfw.Groups.GetCount();
         }
+
+        public void Dispose()
+        {
+            _uOfw.Dispose();
+        }
     }
 }

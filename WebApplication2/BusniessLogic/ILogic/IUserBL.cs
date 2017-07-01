@@ -12,5 +12,6 @@ namespace BusniessLogic.ILogic
         void AddUser(User item); 
         User GetUser(string Name);
         IEnumerable<User> GetUsers();
+        void Dispose();
     }
 }

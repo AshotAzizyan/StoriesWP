@@ -40,5 +40,10 @@ namespace WebApplication2.Controllers
             }
             return View("Create");
         }
+        protected override void Dispose(bool disposing)
+        {
+            _bsl.Dispose();
+            base.Dispose(disposing);
+        }
     }
 }

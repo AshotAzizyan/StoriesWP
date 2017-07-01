@@ -39,5 +39,11 @@ namespace WebApplication2.Controllers
           
             return View(gvm);
         }
+        protected override void Dispose(bool disposing)
+        {
+            _bsl.Dispose();
+            _ugBsl.Dispose();
+            base.Dispose(disposing);
+        }
     }
 }

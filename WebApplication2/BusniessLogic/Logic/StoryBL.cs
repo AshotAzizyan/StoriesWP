@@ -47,5 +47,9 @@ namespace BusniessLogic.Logic
             return _uOfw.Groups.GetAll();
         }
 
+        public void Dispose()
+        {
+            _uOfw.Dispose();
+        }
     }
 }

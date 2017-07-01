@@ -14,5 +14,6 @@ namespace BusniessLogic.ILogic
         int GetGroupCount();
         IEnumerable<Group> FindeGroups(int pageIndex, int count);
         IEnumerable<int> GetGroupStoriesCount(IEnumerable<Group> groups);
+        void Dispose();
     }
 }

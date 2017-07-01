@@ -15,5 +15,6 @@ namespace BusniessLogic.ILogic
         Story FindeStory(int index);
         void UpdateStory(Story item);
         IEnumerable<Group> GetGroups();
+        void Dispose();
     }
 }
