@@ -1,5 +1,4 @@
-﻿using BusinessLogic.Logic;
-using BusniessLogic.ILogic;
+﻿using BusniessLogic.ILogic;
 using BusniessLogic.Logic;
 using Ninject;
 using System;

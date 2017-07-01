@@ -54,8 +54,6 @@
   <ItemGroup>
     <Compile Include="Infrastructure\ServiceModule.cs" />
     <Compile Include="Logic\GroupBL.cs" />
-    <Compile Include="Logic\IBusinessLogicAll.cs" />
-    <Compile Include="Logic\BusinessLogicAll.cs" />
     <Compile Include="ILogic\IGroupBL.cs" />
     <Compile Include="ILogic\IStoryBL.cs" />
     <Compile Include="ILogic\IUserBL.cs" />
