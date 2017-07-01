@@ -1,0 +1,36 @@
+﻿@model DataModel.Models.Story
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm("Create"))
+{
+    <fieldset>
+        <legend>Story</legend>
+        @Html.HiddenFor(model=>model.UserId,(object) ViewBag.UserId)
+        <p>
+            @Html.LabelFor(model => model.Titel, new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.Titel)
+        </p>
+
+        <p>
+            @Html.LabelFor(model => model.Description, new { @class = "control-label col-md-2" })
+            @Html.EditorFor(model => model.Description)
+        </p>
+
+        <p>
+            @Html.LabelFor(model => model.Content, new { @class = "control-label col-md-2" })
+            @Html.TextAreaFor(model=>model.Content, new { @class = "form-control" })
+        </p>
+        <p>
+            Groups <br />
+            @Html.DropDownListFor(model => model.GroupId, ViewBag.Groups as SelectList)
+        </p>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}

@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@*@model IEnumerable<DataModel.Models.Group>*@
+@model WebApplication2.Models.IndexGroupViewModel
+@using WebApplication2.Utils
+@{
+    // Layout = null;
+    var groups = Model;
+}
+<h2> Groups </h2>
+
+@if (groups != null && groups.Groups.Any())
+{
+    <table class="table">
+        <tr>
+            <th>Grops</th>
+            @*<th></th>
+            <th></th>*@
+
+        </tr>
+     @{ int count = 0;
+        foreach (var item in groups.Groups)
+        {
+            <tr>
+                <td>
+                   @* @Html.DisplayFor(modelItem => item.Name)*@
+                    <p>
+                        @Html.LabelFor(modelItem => item.Name, new { @class = "control-label col-md-2" })
+                        @Html.DisplayFor(modelItem => item.Name, new { @class = "control-label col-md-2" })
+                     
+                    </p>
+
+                    <p>
+                        @Html.LabelFor(modelItem => item.Description, new { @class = "control-label col-md-2" })
+                        @Html.DisplayFor(modelItem => item.Description, new { @class = "control-label col-md-2" })
+                        
+                    </p>
+
+                    <p>
+                        @Html.LabelFor(modelItem => groups.UserCount[count], "The number of members")
+                        @Html.DisplayFor(modelItem => groups.UserCount[count], new { @class = "control-label col-md-2" })
+                    </p>
+                    <p>
+                        @Html.LabelFor(modelItem => groups.StoryCount[count], "The number of stories")
+                        @Html.DisplayFor(modelItem => groups.StoryCount[count], new { @class = "control-label col-md-2" })
+                    </p>
+                </td>
+                
+            </tr>
+             count++;
+         }
+         }
+    </table>
+    <br />
+    <div class="btn-group">
+        @Html.PageLinks(Model.PageInfo, x => Url.Action("Index", new { userId = ViewBag.UserId, page = x }))
+    </div>
+}

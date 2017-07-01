@@ -1,0 +1,172 @@
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\ApplicationInsights.config
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\csc.exe
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\csc.exe.config
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\csc.rsp
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\csi.exe
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\csi.rsp
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\System.AppContext.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\System.Collections.Immutable.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\System.IO.FileSystem.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\vbc.exe
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\vbc.exe.config
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\vbc.rsp
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe.config
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\WebApplication2.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Newtonsoft.Json.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\System.Web.Helpers.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\System.Web.Mvc.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\System.Web.Razor.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\System.Web.WebPages.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\WebGrease.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\System.Web.Helpers.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\System.Web.Mvc.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\System.Web.Optimization.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\System.Web.Razor.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\System.Web.WebPages.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Antlr3.Runtime.pdb
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Newtonsoft.Json.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\BusniessLogic.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\DataModel.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\EntityFramework.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\DataProvider.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\BusniessLogic.pdb
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\DataModel.pdb
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\EntityFramework.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\DataProvider.pdb
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\DataProvider.dll.config
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Ninject.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Ninject.Web.Common.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Ninject.Web.Mvc.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\WebActivatorEx.dll
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Ninject.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Ninject.Web.Common.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\Ninject.Web.Mvc.xml
+c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\bin\DataModel.dll.config
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\ApplicationInsights.config
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\csc.exe
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\csc.exe.config
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\csc.rsp
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\csi.exe
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\csi.rsp
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\System.AppContext.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\vbc.exe
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\vbc.exe.config
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\vbc.rsp
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\BusniessLogic.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\DataModel.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\EntityFramework.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Newtonsoft.Json.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Ninject.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Ninject.Web.Common.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Ninject.Web.Mvc.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\System.Web.Helpers.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\System.Web.Mvc.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\System.Web.Razor.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\System.Web.WebPages.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\WebActivatorEx.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\WebGrease.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\DataProvider.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\BusniessLogic.pdb
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\DataModel.pdb
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\DataModel.dll.config
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\EntityFramework.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Ninject.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Ninject.Web.Common.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Ninject.Web.Mvc.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\System.Web.Helpers.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\System.Web.Mvc.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\System.Web.Optimization.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\System.Web.Razor.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\System.Web.WebPages.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Antlr3.Runtime.pdb
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Newtonsoft.Json.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\Microsoft.AI.Web.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\DataProvider.pdb
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\bin\DataProvider.dll.config
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\WebPageStories\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb

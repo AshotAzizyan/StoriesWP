@@ -1,0 +1,54 @@
+﻿@model IEnumerable<DataModel.Models.User>
+@{
+
+    ViewBag.Titel = "Logine Page";
+    Layout = null;
+
+    var users = Model;
+}
+
+<h2> USERS </h2>
+@using (Html.BeginForm("AutentificationUser", "Home", FormMethod.Post))
+{
+    <fieldset>
+        <p>Log in</p>
+        @Html.TextBox("Login")
+        <button name="action" value="login">Log in</button>
+        <p>Register</p>
+        @Html.TextBox("SigneUp")
+        <button name="action" value="signeUp">Signe up</button>
+    </fieldset>
+}
+@*<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Покупка</title>
+</head>
+<body>
+    <div>
+        <h3>STORIES</h3>
+        <form method="post" action="/Home/UserRegister">
+            <table>
+                <tr>
+                    <td><p> Enter your name </p></td>
+                    <td><input type="text" name="Name"  /> </td>
+                </tr>
+                <tr><td><button name="action" type="submit" value="login">Log in</button> </td><td></td></tr>
+                <tr>
+                    <td><p> Register your name</p></td>
+                    <td>
+                        <input type="text" name="Name" />
+                    </td>
+                </tr>
+                <tr><td><button name="action" type="submit" value="signeup">Signe up</button> </td><td></td></tr>
+            </table>
+        </form>
+        <form method="post" action="/Home/About">
+            <table>
+              
+            </table>
+        </form>
+</div>
+</body>
+</html>*@

@@ -1,0 +1,33 @@
+﻿@model DataModel.Models.Story
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<h2>Details</h2>
+
+@using (Html.BeginForm("Details"))
+{
+    <fieldset>
+        <legend>Story</legend>
+        @Html.HiddenFor(model => model.UserId, (object)ViewBag.UserId)
+        <p>
+            @Html.LabelFor(model => model.Titel, new { @class = "control-label col-md-2" })
+            @Html.DisplayFor(model => model.Titel)
+        </p>
+
+        <p>
+            @Html.LabelFor(model => model.Description, new { @class = "control-label col-md-2" })
+            @Html.DisplayFor(model => model.Description)
+        </p>
+
+        <p>
+            @Html.LabelFor(model => model.Content, new { @class = "control-label col-md-2" })
+            @Html.DisplayTextFor(model => model.Content)
+        </p>
+
+        <p>
+            <input type="submit" value="Ok" />
+        </p>
+    </fieldset>
+}

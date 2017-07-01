@@ -1,0 +1,35 @@
+﻿@model IEnumerable<DataModel.Models.User>
+@{
+    var users = Model;
+}
+<h2> Users </h2>
+
+
+
+
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th></th>
+        </tr>
+        @foreach (var item in users)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                       @Html.ActionLink("Story", "Index", "Story", new { userId = item.Id,  page = 1 },new { }) 
+                </td>
+            </tr>
+            
+        }
+      
+    </table>
+<div>
+    <p>Create New User</p>
+    <form action="/User/Create">
+         <input type="text" name="name"/>
+        <input type="submit" />
+    </form>
+</div>
