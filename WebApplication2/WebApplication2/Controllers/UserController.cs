@@ -24,7 +24,7 @@ namespace WebApplication2.Controllers
             var gu = _bsl.GetUsers();
             var users = MappingHalpers.UserToUserIndexModel(gu);
             Mapper.Initialize(c => c.CreateMap<User, UserIndexModel>());
-            ViewBag.UserId=1; // defoult user
+          //  ViewBag.UserId=1; // defoult user
             return View(users);
         }
         public ActionResult Create(UserIndexModel userM)

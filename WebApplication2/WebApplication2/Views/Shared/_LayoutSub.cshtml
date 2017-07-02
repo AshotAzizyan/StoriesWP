@@ -20,10 +20,9 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    @{ ViewBag.UserId = 1; }
                     <li>@Html.ActionLink("Home", "Index", "User")</li>
-                    @*<li>@Html.ActionLink("Stories", "Index", "Story", new { userId = ViewBag.UserId, page = 1 }, new { })</li>
-                    <li>@Html.ActionLink("Create Story", "Create", "Story", new { userId = ViewBag.UserId }, new { })</li>*@
+                    <li>@Html.ActionLink("Stories", "Index", "Story", new { userId = ViewBag.UserId, page = 1 }, new { })</li>
+                    <li>@Html.ActionLink("Create Story", "Create", "Story", new { userId = ViewBag.UserId }, new { })</li>
                     <li>@Html.ActionLink("Groups", "Index", "Group", new { userId = ViewBag.UserId, page = 1 }, new { })</li>
                 </ul>
             </div>

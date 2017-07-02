@@ -2,8 +2,10 @@
 @model WebApplication2.Models.ModelsStoryController.IndexStoryViewModel
 @using WebApplication2.Utils
 @{
-   // Layout = null;
+    // Layout = null;
     var stories = Model;
+    Layout = null;
+    Layout = "~/Views/Shared/_LayoutSub.cshtml";
 }
 <h2> User's Stories </h2>
 
