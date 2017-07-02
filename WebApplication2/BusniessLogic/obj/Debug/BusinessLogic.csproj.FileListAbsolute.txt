@@ -36,3 +36,22 @@ C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\BusniessLogic\
 C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\BusniessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
 C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\BusniessLogic\obj\Debug\BusniessLogic.dll
 C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\BusniessLogic\obj\Debug\BusniessLogic.pdb
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\bin\Debug\BusniessLogic.dll
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\bin\Debug\BusniessLogic.pdb
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\bin\Debug\AutoMapper.dll
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\bin\Debug\DataModel.dll
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\bin\Debug\DataProvider.dll
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\bin\Debug\Ninject.dll
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\bin\Debug\WebActivatorEx.dll
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\bin\Debug\EntityFramework.dll
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\bin\Debug\DataModel.pdb
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\bin\Debug\DataModel.dll.config
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\bin\Debug\DataProvider.pdb
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\bin\Debug\DataProvider.dll.config
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\bin\Debug\AutoMapper.xml
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\bin\Debug\Ninject.xml
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\bin\Debug\EntityFramework.xml
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\obj\Debug\BusniessLogic.dll
+C:\Users\Ashot Azizyan\Desktop\New folder\StoriesWP\WebApplication2\BusniessLogic\obj\Debug\BusniessLogic.pdb

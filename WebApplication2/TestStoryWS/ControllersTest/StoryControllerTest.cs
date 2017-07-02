@@ -48,7 +48,7 @@ namespace TestStoryWS.ControllersTest
             var controller = new StoryController(mock.Object);
             controller.ModelState.AddModelError("Name", "Error models name");
 
-            var result = controller.Edit(story) as RedirectToRouteResult;
+            var result = controller.Edit(story) as ViewResult;
 
             Assert.IsNotNull(result);
         }
