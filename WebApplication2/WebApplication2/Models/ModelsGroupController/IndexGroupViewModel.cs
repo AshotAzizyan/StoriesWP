@@ -9,9 +9,10 @@ namespace WebApplication2.Models.ModelsGroupController
 {
     public class IndexGroupViewModel
     {
-        public IEnumerable<SupGroupIndexModel> Groups { get; set; }
+        public IEnumerable<SubGroupIndexModel> Groups { get; set; }
         public PageInfo PageInfo { get; set; }
         public List<int> UserCount { get; set; }
         public List<int> StoryCount { get; set; }
+        public int? UserId { get; set; }
     }
 }

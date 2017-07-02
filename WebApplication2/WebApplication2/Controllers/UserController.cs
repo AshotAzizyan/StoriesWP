@@ -7,34 +7,31 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using WebApplication2.Models.ModelsUserController;
+using WebApplication2.Utils;
 
 namespace WebApplication2.Controllers
 {
     public class UserController : Controller
     {
         IUserBL _bsl;
-
         public UserController(IUserBL bsl)
         {
             _bsl = bsl;
         }
-
-        // GET: User
+        
         public ActionResult Index()
         {
+            var gu = _bsl.GetUsers();
+            var users = MappingHalpers.UserToUserIndexModel(gu);
             Mapper.Initialize(c => c.CreateMap<User, UserIndexModel>());
-
-            var users =
-               Mapper.Map<IEnumerable<User>, List<UserIndexModel>>(_bsl.GetUsers());
-            ViewBag.UserId=1;
+            ViewBag.UserId=1; // defoult user
             return View(users);
         }
         public ActionResult Create(UserIndexModel userM)
         {
             if (ModelState.IsValid)
             {
-                Mapper.Initialize(cfg => cfg.CreateMap<UserIndexModel, User>());
-                var user = Mapper.Map<UserIndexModel, User>(userM);
+                var user = MappingHalpers.UserIndexModelToUser(userM); 
                 _bsl.AddUser(user);
             }
             return RedirectToAction("Index");

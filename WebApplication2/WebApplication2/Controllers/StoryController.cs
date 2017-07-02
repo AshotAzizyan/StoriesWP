@@ -8,12 +8,12 @@ using System.Web;
 using System.Web.Mvc;
 using WebApplication2.Models;
 using WebApplication2.Models.ModelsStoryController;
+using WebApplication2.Utils;
 
 namespace WebApplication2.Controllers
 {
     public class StoryController : Controller
     {
-        // GET: Story
         IStoryBL _bsl;
 
         public StoryController(IStoryBL bsl)
@@ -23,12 +23,9 @@ namespace WebApplication2.Controllers
         public ActionResult Index(int userId, int page=1)
         {
             int pageSize = 3;
-            Mapper.Initialize(c => c.CreateMap<Story, SubStoryIndexModel>());
-
-            var storiesFinde =
-               Mapper.Map<IEnumerable<Story>, List<SubStoryIndexModel>>(_bsl.FindeStories(userId, page - 1, pageSize));
+            var fs = _bsl.FindeStories(userId, page - 1, pageSize);
+            var storiesFinde = MappingHalpers.StoryToSubStoryIndexModel(fs);
             PageInfo pageInfo = new PageInfo { PageNumber = page, PageSize = pageSize, TotalItems = _bsl.GetStoriesCount(userId) };
-
             IndexStoryViewModel svm = new IndexStoryViewModel { PageInfo = pageInfo, Stories = storiesFinde };
             ViewBag.UserId = userId;
             return View(svm);
@@ -36,9 +33,8 @@ namespace WebApplication2.Controllers
         [HttpGet]
         public ActionResult Details(int id)
         {
-            Mapper.Initialize(c => c.CreateMap<Story, DetailsStoryViewModel>());
-            
-            var story= Mapper.Map<Story,DetailsStoryViewModel>( _bsl.FindeStory(id));
+            var sf = _bsl.FindeStory(id);
+           var story= MappingHalpers.StoryToDetailsStoryViewModel(sf);
             ViewBag.UserId = story.UserId;
             return View(story);
         }
@@ -56,12 +52,10 @@ namespace WebApplication2.Controllers
         {
             SelectList groups = new SelectList(_bsl.GetGroups(), "Id", "Name");
             ViewBag.Groups = groups;
-
-            Mapper.Initialize(c => c.CreateMap<Story, EditStoryViewModel>());
-
-            var story =
-               Mapper.Map<Story, EditStoryViewModel>(_bsl.FindeStory(id));
-
+            
+            var fs = _bsl.FindeStory(id);
+            var story = MappingHalpers.StoryToEditStoryViewModel(fs);
+           
             ViewBag.UserId = story.UserId;
             return View(story);
         }
@@ -70,8 +64,7 @@ namespace WebApplication2.Controllers
         {
             if (ModelState.IsValid)
             {
-                Mapper.Initialize(cfg => cfg.CreateMap<EditStoryViewModel, Story>());
-                var story = Mapper.Map<EditStoryViewModel, Story>(storyVM);
+                var story = MappingHalpers.EditStoryViewModelToStory(storyVM);
                 _bsl.UpdateStory(story);
                 return RedirectToAction("Index", new { userId = story.UserId, page = 1 });
             }
@@ -92,8 +85,7 @@ namespace WebApplication2.Controllers
         {
             if (ModelState.IsValid)
             {
-                Mapper.Initialize(cfg => cfg.CreateMap<CreateStoryViewModel, Story>());
-                var story = Mapper.Map<CreateStoryViewModel, Story>(storyVM);
+                var story = MappingHalpers.CreateStoryViewModelToStory(storyVM);
                 _bsl.AddStory(story);
                 return RedirectToAction("Index", new { userId = story.UserId, page = 1 });
             }
