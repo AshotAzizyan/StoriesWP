@@ -30,3 +30,4 @@ C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataProvider\o
 C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataProvider\obj\Debug\DataProvider.csproj.GenerateResource.Cache
 C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataProvider\obj\Debug\DataProvider.dll
 C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataProvider\obj\Debug\DataProvider.pdb
+C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataProvider\obj\Debug\DataProvider.Migrations.ColumneNameChange.resources

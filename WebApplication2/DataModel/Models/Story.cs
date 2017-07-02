@@ -12,7 +12,7 @@ namespace DataModel.Models
         public int Id { get; set; }
         [Required]
         [MaxLength(40)]
-        public string Titel { get; set; }
+        public string Title { get; set; }
         [MaxLength(200)]
         public string Description { get; set; }
         [MaxLength(5000)]

@@ -2,9 +2,7 @@
 @model WebApplication2.Models.ModelsStoryController.IndexStoryViewModel
 @using WebApplication2.Utils
 @{
-    // Layout = null;
     var stories = Model;
-    Layout = null;
     Layout = "~/Views/Shared/_LayoutSub.cshtml";
 }
 <h2> User's Stories </h2>
@@ -13,7 +11,7 @@
 {
 <table class="table" >
     <tr>
-        <th>Titel</th>
+        <th>Title</th>
         <th></th>
         <th></th>
 
@@ -22,7 +20,7 @@
     {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Titel)
+                @Html.DisplayFor(modelItem => item.Title)
             </td>
             <td>
               @Html.ActionLink("Details", "Details", new { id = item.Id })

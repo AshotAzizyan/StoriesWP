@@ -16,3 +16,4 @@ C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataModel\bin\
 C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataModel\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataModel\obj\Debug\DataModel.dll
 C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataModel\obj\Debug\DataModel.pdb
+C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataModel\obj\Debug\DataModel.csprojResolveAssemblyReference.cache

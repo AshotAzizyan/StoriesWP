@@ -13,7 +13,7 @@ namespace WebApplication2.Models.ModelsStoryController
         public int Id { get; set; }
         [Required(ErrorMessage = "The field must be set")]
         [StringLength(20, MinimumLength = 2, ErrorMessage = "The length of the Title must be between 2 before 20 characters")]
-        public string Titel { get; set; }
+        public string Title { get; set; }
         [Required(ErrorMessage = "The field must be set")]
         [StringLength(40, MinimumLength = 2, ErrorMessage = "The length of the Description must be between 2 before 40 characters")]
         public string Description { get; set; }

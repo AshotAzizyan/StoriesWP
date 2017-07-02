@@ -10,7 +10,7 @@ namespace WebApplication2.Models.ModelsStoryController
     {
         [HiddenInput(DisplayValue = false)]
         public int Id { get; set; }
-        public string Titel { get; set; }
+        public string Title { get; set; }
 
         public string Description { get; set; }
 
