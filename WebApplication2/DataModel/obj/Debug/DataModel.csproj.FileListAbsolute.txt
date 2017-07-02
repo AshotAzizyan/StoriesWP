@@ -7,3 +7,12 @@ c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\Dat
 c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\DataModel\bin\Debug\EntityFramework.SqlServer.dll
 c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\DataModel\bin\Debug\EntityFramework.xml
 c:\users\ashot azizyan\documents\visual studio 2017\Projects\WebApplication2\DataModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataModel\bin\Debug\DataModel.dll.config
+C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataModel\bin\Debug\DataModel.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataModel\bin\Debug\DataModel.pdb
+C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataModel\bin\Debug\EntityFramework.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataModel\bin\Debug\EntityFramework.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataModel\obj\Debug\DataModel.dll
+C:\Users\Ashot Azizyan\Documents\GitHub\StoriesWP\WebApplication2\DataModel\obj\Debug\DataModel.pdb

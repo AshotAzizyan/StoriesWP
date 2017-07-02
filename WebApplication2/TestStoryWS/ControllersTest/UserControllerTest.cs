@@ -30,16 +30,14 @@ namespace TestStoryWS.ControllersTest
         [TestMethod]
         public void UserCreatePostActionModelError()
         {
-            string expected = "Create";
             var mock = new Mock<IUserBL>();
             var user = new UserIndexModel();
             var controller = new UserController(mock.Object);
             controller.ModelState.AddModelError("Name", "Error models name");
            
-            var result = controller.Create(user) as ViewResult;
+            var result = controller.Create(user) as RedirectToRouteResult;
            
             Assert.IsNotNull(result);
-            Assert.AreEqual(expected, result.ViewName);
         }
     }
 }

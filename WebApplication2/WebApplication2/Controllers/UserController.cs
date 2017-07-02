@@ -36,9 +36,8 @@ namespace WebApplication2.Controllers
                 Mapper.Initialize(cfg => cfg.CreateMap<UserIndexModel, User>());
                 var user = Mapper.Map<UserIndexModel, User>(userM);
                 _bsl.AddUser(user);
-                return RedirectToAction("Index");
             }
-            return View("Create");
+            return RedirectToAction("Index");
         }
         protected override void Dispose(bool disposing)
         {

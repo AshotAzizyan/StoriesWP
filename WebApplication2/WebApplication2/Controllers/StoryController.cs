@@ -49,7 +49,7 @@ namespace WebApplication2.Controllers
             {
                 return RedirectToAction("Index", new { userId = story.UserId, page = 1 });
             }
-            return View("Details");
+            return RedirectToAction("Details", story.Id);
         }
         [HttpGet]
         public ActionResult Edit(int id)
@@ -75,7 +75,9 @@ namespace WebApplication2.Controllers
                 _bsl.UpdateStory(story);
                 return RedirectToAction("Index", new { userId = story.UserId, page = 1 });
             }
-            return View("Edit");
+            SelectList groups = new SelectList(_bsl.GetGroups(), "Id", "Name");
+            ViewBag.Groups = groups;
+            return View("Edit", storyVM);
         }
         [HttpGet]
         public ActionResult Create(int userId)
@@ -86,7 +88,7 @@ namespace WebApplication2.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult Create(CreateStoryViewModel storyVM)
+        public ActionResult Create( CreateStoryViewModel storyVM)
         {
             if (ModelState.IsValid)
             {
@@ -95,7 +97,9 @@ namespace WebApplication2.Controllers
                 _bsl.AddStory(story);
                 return RedirectToAction("Index", new { userId = story.UserId, page = 1 });
             }
-            return View("Create");
+            SelectList groups = new SelectList(_bsl.GetGroups(), "Id", "Name");
+            ViewBag.Groups = groups;
+            return View("Create",storyVM);
         }
         protected override void Dispose(bool disposing)
         {

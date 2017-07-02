@@ -31,7 +31,6 @@ namespace TestStoryWS.ControllersTest
         [TestMethod]
         public void StoryCreatePostActionModelError()
         {
-            string expected = "Create";
             var mock = new Mock<IStoryBL>();
             var story = new CreateStoryViewModel();
             var controller = new StoryController(mock.Object);
@@ -40,21 +39,18 @@ namespace TestStoryWS.ControllersTest
             var result = controller.Create(story) as ViewResult;
 
             Assert.IsNotNull(result);
-            Assert.AreEqual(expected, result.ViewName);
         }
         [TestMethod]
         public void StoryEditPostActionModelError()
         {
-            string expected = "Edit";
             var mock = new Mock<IStoryBL>();
             var story = new EditStoryViewModel();
             var controller = new StoryController(mock.Object);
             controller.ModelState.AddModelError("Name", "Error models name");
 
-            var result = controller.Edit(story) as ViewResult;
+            var result = controller.Edit(story) as RedirectToRouteResult;
 
             Assert.IsNotNull(result);
-            Assert.AreEqual(expected, result.ViewName);
         }
         [TestMethod]
         public void StoryEditViewModelNotNull()
@@ -70,16 +66,14 @@ namespace TestStoryWS.ControllersTest
         [TestMethod]
         public void StoryDetailsPostActionModelError()
         {
-            string expected = "Details";
             var mock = new Mock<IStoryBL>();
             var story = new DetailsStoryViewModel();
             var controller = new StoryController(mock.Object);
             controller.ModelState.AddModelError("Name", "Error models name");
 
-            var result = controller.Details(story) as ViewResult;
+            var result = controller.Details(story) as RedirectToRouteResult;
 
             Assert.IsNotNull(result);
-            Assert.AreEqual(expected, result.ViewName);
         }
 
     }

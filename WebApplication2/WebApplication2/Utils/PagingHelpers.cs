@@ -19,8 +19,6 @@ namespace WebApplication2.Utils
                 TagBuilder tag = new TagBuilder("a");
                 tag.MergeAttribute("href", pageUrl(i));
                 tag.InnerHtml = i.ToString();
-                // если текущая страница, то выделяем ее,
-                // например, добавляя класс
                 if (i == pageInfo.PageNumber)
                 {
                     tag.AddCssClass("selected");
