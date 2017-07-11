@@ -15,14 +15,14 @@ namespace DataProvider.Context
         {
             Database.SetInitializer<StoryContext>(new StoreDbInitializer());
         }
-        public StoryContext()
-         : base("MyDBConection")
-        {
-        }
-        //public StoryContext(string connectionString)
-        //    : base(connectionString)
+        //public StoryContext()
+        // : base("MyDBConection")
         //{
         //}
+        public StoryContext(string connectionString)
+            : base(connectionString)
+        {
+        }
         public DbSet<User> Users { get; set; }
         public DbSet<Group> Groups { get; set; }
         public DbSet <Story> Stories { get; set; }

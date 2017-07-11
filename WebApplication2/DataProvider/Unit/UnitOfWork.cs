@@ -19,7 +19,7 @@ namespace DataProvider.Unit
         private UserGroupProvider userGroupProvider;
         public UnitOfWork(string conectionString)
         {
-            dbContex = new StoryContext(); // tam defoult
+            dbContex = new StoryContext(conectionString); // tam defoult
          
         }
         public IProvider<Story> Stories {
